@@ -5,18 +5,18 @@
         <title>MIRROR FASHION</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="public_html/style.css"/>
     </head>
     <body>
-        <div> <b> MIRROR FASHION </b> </div>
-        <header>
-         <figure>
-        <h1> 
-            <img src="public_html/img/logo.png" alt="logo da Mirror Fashion"
-        ></h1>    
-         </figure>
-         <p>Nenhum item na sacola de compras</p>
 
-         <nav>
+        <header class="container">
+        <h1> <img src="public_html/img/logo.png" alt="Logo da Mirror Fashion"></h1>
+        <p class="sacola">
+            Nenhum item na sacola de compras!
+        </p>
+
+         <nav class="menu_opcoes">
             <ul>
                 <li><a href="#" >Sua Conta</a></li>
                 <li><a href="#" >Lista de Desejo</a></li>
@@ -25,11 +25,45 @@
                 <li><a href="#" >Ajuda</a></li>
             </ul>
          </nav>
-
-            <!--conteudo do cabeçalho-->   
+    <!--conteudo do cabeçalho-->   
         </header>
-        <div id="main">
-            <!--conteudo principal-->
+
+
+
+
+
+
+        <div class="container destaques">
+            
+            <section class="busca">
+             <h2>busca</h2>
+
+             <form>
+              <input type="Search">
+              <button>Buscar</button>    
+             </form>
+            </section>
+
+            <section class="menu_departamentos">
+                <h2>Departamentos</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Blusas e Camisas</a></li>
+                        <li><a href="#">Calças</a></li>
+                        <li><a href="#">Saias</a></li>
+                        <li><a href="#">Vestidos</a></li>
+                        <li><a href="#">Sapatos</a></li>
+                        <li><a href="#">Bolsas e Carteiras</a></li>
+                        <li><a href="#">acessórios</a></li>
+                    </ul>   
+                </nav>
+            </section>
+
+            <section class="Banner_destaques">
+                <figure>
+                    <img src="public_html/img/destaque-home.png" alt="promoção: Big City Night">
+                </figure>
+            </section>
         </div>
 
         <div id="destaques">
@@ -38,8 +72,10 @@
         </div>
 
         <footer>
-            <!--rodape-->
-
+        <div>
+            <img src="public_html/img/logo-rodape.png" alt="logo da mirror fashion"> 
+        <h6>Copyright Mirror Fashion</h6>
+        </div>
         </footer>
 
             
