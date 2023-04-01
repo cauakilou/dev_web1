@@ -182,3 +182,27 @@ footer .container{
     background-image: url(img/googleplus.png);
 }
 
+.menu_opcoes a:hover{
+    color: #007DC6;
+
+}
+.menu_opcoes a:active{
+    color: #7cfc00;
+}
+
+.menu_departamentos li ul{
+    display: none;
+}
+
+.menu_departamentos li:hover ul{
+    display: block;
+}
+
+.menu_departamentos ul ul li{
+    background-color: #DCDCDC;
+}
+
+.menu_departamentos li li a:before{
+    content: '- ';
+
+}
