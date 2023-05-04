@@ -217,6 +217,8 @@ footer .container{
 }
 
 .painel li:hover{
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 5PX #333;
-    transition: box-shadow 0.7s;
+    transition: b 0.7s;
+    transform: scale(1.2) rotate(-5deg);
 }
